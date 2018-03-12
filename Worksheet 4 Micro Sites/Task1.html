@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+
+      <link href="style/style.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <title>Task 1 | Window and Location Objects</title>
+  </head>
+  <body>
+    <p>The Browser window object allows JavaScript to make changes to the client side Browser Object Model. As a result, we can make websites more interactive as it enables changes to occur client side in response to events which take place client side.</p>
+    <p>Below are a few working examples which outline the behavious which the window object can exhibit.</p>
+    <p>The first example shows how we can create a new window object using JavaScript, some parameters have been passed into the method to generate the child window.</p>
+    <p>Please see the Javascript source for anotated script</p>
+    <p><button id ="example" type="button">Example 1!</button></p>
+    <p>The next example is a method which returns the URL of the current page as an alert for now...</p>
+    <p><button id ="urlLocation" type="button">Example 2!</button></p>
+    <p>The next example will return the host name when the button is clicked. (Not while its not live like)</p>
+    <p><button id ="hostLocation" type="button">Example 3!</button></p>
+    <p>The next example will return the path name for the current page.</p>
+    <p><button id ="pathName" type="button">Example 4!</button></p>
+    <p>The next example will return the protocol for the page</p>
+    <p><button id ="pageProtocol" type="button">Example 5!</button></p>
+    <p>The next example will return the port for the page.</p>
+    <p><button id ="pagePort" type="button">Example 6!</button></p>
+    <p>Search is another property which we can return providing the URL contains a query string. </p>
+    <p>The syntax for search is location.search, should you wish to set the search property the syntax is, location.search=querystring.</p>
+    <p>The location object also has some associated methods, the first of which is assign(), using this we can assign a new URL to open.</p>
+    <p><button id ="loadNew" type="button">Example 7!</button></p>
+    <p>The reload() method reloads the current page. </P>
+    <p><button id ="reloadPage" type="button">Example 8!</button></p>
+    <p>The replace() method is alike assign() however, replace() removes the URL from the document history and as a result the back button will not work. </p>
+    <p><button id = "replacePage" type="button"> Example 9 </button></p>
+    <script src="JS/script.js" type = "text/javascript"></script>
+  </body>
+</html>

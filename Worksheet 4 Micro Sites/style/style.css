@@ -1,0 +1,30 @@
+p {
+font-size: 16px;
+text-align: center;
+padding: 2px;
+}
+
+#example {
+width: 200px;
+}
+
+body {
+width:80%;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+div {
+box-sizing: border-box;
+margin: 0px auto;
+width:80%;
+text-align: center;
+}
+
+.pClassSelect {
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+}
